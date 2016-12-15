@@ -671,6 +671,9 @@ body[contenteditable="true"][dir="ltr"] > blockquote {
 	border-color: #313238;
 	background: #212226;
 }
+div.notification.notification__push {
+	background-color: #2e3035!important;
+}
 }
 
 @-moz-document url-prefix("https://www.betaseries.com/blog/"), url-prefix("http://www.betaseries.com/blog/") {
