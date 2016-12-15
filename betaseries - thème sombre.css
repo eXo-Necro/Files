@@ -382,6 +382,9 @@ h1 {
 #contenu #right .messages .item:hover {
 	background-color: #3f4249;
 }
+.content .post .texte .message {
+	color: #b4b6bd!important;
+}
 #contenu #right .messages .post .texte .message {
 	color: #242529;
 }
@@ -663,6 +666,10 @@ body[contenteditable="true"][dir="ltr"] > blockquote {
 }
 .badge__illu.starred {
 	background: #515460;
+}
+#contenu #right .messages .post .message-post-container {
+	border-color: #313238;
+	background: #212226;
 }
 }
 
