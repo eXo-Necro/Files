@@ -1,5 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="24" height="24" viewBox="0 0 24 24">
-   <path fill="#1C1C1C" d="M3,3V21H21V3" />
+<svg width="202" height="27" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#1c1c1c" id="canvas_background" height="29" width="204" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <polyline stroke-linecap="round" id="svg_1" points="322.5,-31 322.5,-31 " stroke-width="1.5" stroke="#000" fill="none"/>
+  <path d="m296.5,-52c3,3 15.082916,7.484146 31,20c20.573914,16.177593 38,35 65,62l14,11l2,2" id="svg_2" stroke-width="1.5" stroke="#000" fill="none"/>
+ </g>
 </svg>
