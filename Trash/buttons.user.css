@@ -1,3 +1,12 @@
+/* ==UserStyle==
+@name        e-hentai.org Dark Theme + Better category buttons
+@namespace   LadyChocolatine
+@version     1.0.0
+@homepageURL https://forums.e-hentai.org/index.php?showtopic=193181
+@updateURL   https://raw.githubusercontent.com/eXo-Necro/Files/master/Trash/Dark-with-buttons.user.css
+@author      LadyChocolatine
+==/UserStyle== */
+@-moz-document regexp("https?://(?!forums.)(.*)?e-hentai.org.*") {
 /**** For category buttons ****/
 div.id42,
 div.id43,
@@ -556,4 +565,5 @@ form[name="favform"] td.itdc img[alt="asianporn"] {
 }
 form[name="favform"] td.itdc img[alt="misc"] {
     background-position: 0 -180px;
+}
 }
