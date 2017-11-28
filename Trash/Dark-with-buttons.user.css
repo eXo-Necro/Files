@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name        e-hentai.org Dark Theme + Better category buttons
 @namespace   LadyChocolatine
-@version     1.0.2
+@version     1.0.1
 @homepageURL https://forums.e-hentai.org/index.php?showtopic=193181
-@updateURL   https://github.com/eXo-Necro/Files/raw/master/Trash/Dark-with-buttons.user.css
+@updateURL   https://raw.githubusercontent.com/eXo-Necro/Files/master/Trash/Dark-with-buttons.user.css
 @author      LadyChocolatine
 ==/UserStyle== */
 @-moz-document regexp("https?://(?!forums.)(.*)?e-hentai.org.*") {
@@ -580,8 +580,7 @@
         position: relative;
         top: -4px;
         left: -2px;
-        /*background: #242424;*/
-        background: #fff;
+        background: #242424;
         box-shadow: 0px 1px 1px 2px rgba(0, 0, 0, 0.3);
         padding: 10px 0;
     }
