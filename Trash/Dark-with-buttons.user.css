@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        e-hentai.org Dark Theme + Better category buttons
 @namespace   LadyChocolatine
-@version     1.0.5
+@version     1.0.6
 @homepageURL https://forums.e-hentai.org/index.php?showtopic=193181
 @updateURL   https://raw.githubusercontent.com/eXo-Necro/Files/master/Trash/Dark-with-buttons.user.css
 @author      LadyChocolatine
@@ -1037,5 +1037,17 @@
         position: relative;
         bottom: 13px;
         animation: shrink-bounce 200ms cubic-bezier(.4, .0, .23, 1);
+    }
+    div.sni h1 {
+        font-size: 11pt;
+        font-weight: normal;
+        width: calc(100% - 50px);
+        margin: 8px auto 0px auto;
+        padding: 10px 0px;
+        border-radius: 2px;
+        background: rgb(29, 29, 29) none repeat scroll 0% 0%;
+        display: inline-block;
+        position: inherit;
+        top: -4px;
     }
 }
