@@ -6,7 +6,7 @@
 @updateURL   https://raw.githubusercontent.com/eXo-Necro/Files/master/Trash/Dark-with-buttons.user.css
 @author      LadyChocolatine
 ==/UserStyle== */
-@-moz-document regexp("https?://(?!forums.)(.*)?e-hentai.org.*") {
+@-moz-document domain("e-hentai.org") {
     /**** For category buttons ****/
     div.id42,
     div.id43,
