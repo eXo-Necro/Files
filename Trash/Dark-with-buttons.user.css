@@ -954,7 +954,7 @@
     }
     a[href^="https://e-hentai.org/gallerytorrents.php?gid="]:before {
         content: "\f019";
-        font-family: FontAwesome;
+        font-family: 'font-awesome';
         color: #4e4e4e;
         font-size: 16px;
         position: absolute;
