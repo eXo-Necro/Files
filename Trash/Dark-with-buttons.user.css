@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        e-hentai.org Dark Theme + Better category buttons
 @namespace   LadyChocolatine
-@version     1.0.3
+@version     1.0.4
 @homepageURL https://forums.e-hentai.org/index.php?showtopic=193181
 @updateURL   https://raw.githubusercontent.com/eXo-Necro/Files/master/Trash/Dark-with-buttons.user.css
 @author      LadyChocolatine
@@ -956,7 +956,8 @@
     a[href^="https://e-hentai.org/gallerytorrents.php?gid="] img {
         opacity: 0;
     }
-    a[href^="https://e-hentai.org/gallerytorrents.php?gid="]:before {
+    .id44 a[href^="https://e-hentai.org/gallerytorrents.php?gid="]:before,
+    .it3 a[href^="https://e-hentai.org/gallerytorrents.php?gid="]:before {
         content: "\f019";
         font-family: 'font-awesome';
         color: #4e4e4e;
