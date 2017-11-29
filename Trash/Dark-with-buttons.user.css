@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        e-hentai.org Dark Theme + Better category buttons
 @namespace   LadyChocolatine
-@version     1.0.4
+@version     1.0.5
 @homepageURL https://forums.e-hentai.org/index.php?showtopic=193181
 @updateURL   https://raw.githubusercontent.com/eXo-Necro/Files/master/Trash/Dark-with-buttons.user.css
 @author      LadyChocolatine
@@ -722,12 +722,12 @@
     a {
         color: #879DAA;
     }
-    a:hover {
-        color: #e7e7e7;
-    }
-    div.id2 a:visited,
-    div.it5 a:visited {
+    .id2 a:visited,
+    .it5 a:visited {
         color: #a588ab;
+    }
+    a:hover {
+        color: #e7e7e7!important;
     }
     div#pt {
         border-color: #393939;
