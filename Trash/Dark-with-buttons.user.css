@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        e-hentai.org Dark Theme + Better category buttons
 @namespace   LadyChocolatine
-@version     1.0.6
+@version     1.0.7
 @homepageURL https://forums.e-hentai.org/index.php?showtopic=193181
 @updateURL   https://raw.githubusercontent.com/eXo-Necro/Files/master/Trash/Dark-with-buttons.user.css
 @author      LadyChocolatine
@@ -686,6 +686,14 @@
         border-radius: 2px;
         height: 0px;
         width: 0px;
+    }
+    table.ptt td[onclick*='Jump to page: '],
+    table.ptb td[onclick*='Jump to page: '] {
+        background: transparent!important;
+    }
+    table.ptt td[onclick*='Jump to page: ']:hover,
+    table.ptb td[onclick*='Jump to page: ']:hover {
+        background-color: #1d1d1d!important;
     }
     td.ptds {
         border: none;
