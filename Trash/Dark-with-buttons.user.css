@@ -1,7 +1,7 @@
 /* ==UserStyle==
-@name        e-hentai.org Dark Theme + Better category buttons
+@name        e-******.org Dark Theme + Better category buttons
 @namespace   LadyChocolatine
-@version     1.0.7
+@version     1.0.8
 @homepageURL https://forums.e-hentai.org/index.php?showtopic=193181
 @updateURL   https://raw.githubusercontent.com/eXo-Necro/Files/master/Trash/Dark-with-buttons.user.css
 @author      LadyChocolatine
@@ -590,6 +590,7 @@
     }
     p#nb a:hover {
         color: #e7e7e7;
+        background-color: #1a1a1a;
     }
     p#nb img {
         display: none;
@@ -815,7 +816,10 @@
     div.thd,
     div.tha {
         border: 1px solid rgba(194, 168, 164, 0);
-        color: #545454;
+        color: #b7b7b7;
+    }
+    div.thd {
+        opacity: .2;
     }
     div.c2 {
         background: #434343;
@@ -1057,5 +1061,29 @@
         display: inline-block;
         position: inherit;
         top: -4px;
+    }
+    #gd5 .g2 img,
+    #gd5 .g3 img {
+        display: none;
+    }
+    #gd5 .g2 a,
+    #gd5 .g3 a {
+        display: inline-block;
+        padding: 7px 10px;
+        background: #212121;
+        border: 1px solid #2b2b2b;
+        color: #656565;
+        border-radius: 1px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.14);
+        margin: 5px 0px;
+        float: right;
+    }
+    #gd5 .g2 a:hover {
+        background: #262626;
+    }
+    #gd5 .g3 a {
+        background-color: #751a1a;
+        border: 1px solid #952828;
+        color: #dbdada;
     }
 }
