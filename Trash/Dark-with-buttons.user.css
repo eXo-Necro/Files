@@ -1,10 +1,11 @@
 /* ==UserStyle==
 @name        e-******.org Dark Theme + Better category buttons
 @namespace   LadyChocolatine
-@version     1.0.9
+@version     1.0.10
 @homepageURL https://forums.e-hentai.org/index.php?showtopic=193181
 @updateURL   https://raw.githubusercontent.com/eXo-Necro/Files/master/Trash/Dark-with-buttons.user.css
 @author      LadyChocolatine
+@preprocessor stylus
 ==/UserStyle== */
 @-moz-document regexp("^https?://(?!forums.)(.*)?e-hentai.org.*") {
     /**** For category buttons ****/
