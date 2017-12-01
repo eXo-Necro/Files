@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        e-******.org Dark Theme + Better category buttons
 @namespace   LadyChocolatine
-@version     1.0.11
+@version     1.0.12
 @homepageURL https://forums.e-hentai.org/index.php?showtopic=193181
 @updateURL   https://raw.githubusercontent.com/eXo-Necro/Files/master/Trash/Dark-with-buttons.user.css
 @author      LadyChocolatine
@@ -1127,5 +1127,14 @@
         -webkit-box-shadow: inset 0 -2px 0 #242629;
         box-shadow: inset 0 -2px 0 #242629;
         color: #777a7e;
+    }
+    .id1 .id2:hover {
+        overflow: visible;
+    }
+    .id1 .id2 a:hover {
+        display: block;
+        background-color: rgba(30, 30, 30, .7);
+        position: relative;
+        z-index: 1;
     }
 }
