@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        e-******.org Dark Theme + Better category buttons
 @namespace   LadyChocolatine
-@version     1.0.12
+@version     1.0.13
 @homepageURL https://forums.e-hentai.org/index.php?showtopic=193181
 @updateURL   https://raw.githubusercontent.com/eXo-Necro/Files/master/Trash/Dark-with-buttons.user.css
 @author      LadyChocolatine
@@ -630,7 +630,9 @@
         background: #1d1d1d;
         color: #bbb;
     }
-    div.idi {
+    div.idi,
+    div#torrentinfo table#ett,
+    div#torrentinfo div#etd {
         background-color: rgb(30, 30, 30);
         border-radius: 2px;
         border: 1px solid rgb(42, 42, 42);
@@ -1136,5 +1138,8 @@
         background-color: rgba(30, 30, 30, .7);
         position: relative;
         z-index: 1;
+    }
+    span.scb {
+        color: #0095ff;
     }
 }
