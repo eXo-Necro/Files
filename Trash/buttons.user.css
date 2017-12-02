@@ -1,570 +1,586 @@
 /* ==UserStyle==
 @name        e-******.org Better category buttons
 @namespace   LadyChocolatine
-@version     1.0.0
+@version     1.0.1
 @homepageURL https://forums.e-hentai.org/index.php?showtopic=193181
 @updateURL   https://raw.githubusercontent.com/eXo-Necro/Files/master/Trash/buttons.user.css
 @author      LadyChocolatine
 @preprocessor stylus
 ==/UserStyle== */
-@-moz-document regexp("https?://(?!forums.)(.*)?e-hentai.org.*") {
-/**** For category buttons ****/
-div.id42,
-div.id43,
-div.id44 {
-    margin-top: 25px!important;
-}
-div.id42 {
-    left: 0!important;
-}
-div.id1 {
-    min-height: 200px!important;
-    max-height: 360px!important;
-    padding-bottom: 25px!important;
-}
-div.id41 {
-    height: 0px!important;
-    width: 0px!important;
-}
-div.id41[title="Doujinshi"]:after {
-    content: "Doujinshi"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #fc4e4e, #f26f5f);
-    background: -webkit-linear-gradient(top, #f26f5f, #fc4e4e);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 200px;
-    letter-spacing: 1px;
-}
-div.id41[title="Manga"]:after {
-    content: "Manga"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #e78c1a, #fcb417);
-    background: -webkit-linear-gradient(top, #fcb417, #e78c1a);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 200px;
-    letter-spacing: 1px;
-}
-div.id41[title="Artist CG Sets"]:after {
-    content: "Artist CG Sets"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #c7bf07, #ced91e);
-    background: -webkit-linear-gradient(top, #ced91e, #c7bf07);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 200px;
-    letter-spacing: 1px;
-}
-div.id41[title="Game CG Sets"]:after {
-    content: "Game CG Sets"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #1a9317, #05bf0b);
-    background: -webkit-linear-gradient(top, #05bf0b, #1a9317);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 200px;
-    letter-spacing: 1px;
-}
-div.id41[title="Western"]:after {
-    content: "Western"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #5dc13b, #77ff81);
-    background: -webkit-linear-gradient(top, #77ff81, #5dc13b);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 200px;
-    letter-spacing: 1px;
-}
-div.id41[title="Non-H"]:after {
-    content: "Non-H"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #0f9ebd, #08d7e2);
-    background: -webkit-linear-gradient(top, #08d7e2, #0f9ebd);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 200px;
-    letter-spacing: 1px;
-}
-div.id41[title="Image Sets"]:after {
-    content: "Image Sets"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #2756aa, #7575ee);
-    background: -webkit-linear-gradient(top, #7575ee, #2756aa);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 200px;
-    letter-spacing: 1px;
-}
-div.id41[title="Cosplay"]:after {
-    content: "Cosplay"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #8800c3, #9755f5);
-    background: -webkit-linear-gradient(top, #9755f5, #8800c3);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 200px;
-    letter-spacing: 1px;
-}
-div.id41[title="Asian Porn"]:after {
-    content: "Asian Porn"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #b452a5, #fe93ff);
-    background: -webkit-linear-gradient(top, #fe93ff, #b452a5);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 200px;
-    letter-spacing: 1px;
-}
-div.id41[title="Misc"]:after {
-    width: 200px;
-    content: "Misc"!important;
-    display: inline-block;
-    text-align: center;
-    font-family: arial, helvetica, sans-serif;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #707070, #9e9e9e);
-    background: -webkit-linear-gradient(top, #9e9e9e, #707070);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    letter-spacing: 1px;
-}
-div#gdc img {
-    height: 0;
-    width: 0;
-}
-div#gdc a[href="https://e-hentai.org/doujinshi"]:after {
-    content: "Doujinshi"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #fc4e4e, #f26f5f);
-    background: -webkit-linear-gradient(top, #f26f5f, #fc4e4e);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 85px;
-    letter-spacing: 1px;
-}
-div#gdc a[href="https://e-hentai.org/manga"]:after {
-    content: "Manga"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #e78c1a, #fcb417);
-    background: -webkit-linear-gradient(top, #fcb417, #e78c1a);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 85px;
-    letter-spacing: 1px;
-}
-div#gdc a[href="https://e-hentai.org/artistcg"]:after {
-    content: "Artist CG Sets"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #c7bf07, #ced91e);
-    background: -webkit-linear-gradient(top, #ced91e, #c7bf07);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 85px;
-    letter-spacing: 1px;
-}
-div#gdc a[href="https://e-hentai.org/gamecg"]:after {
-    content: "Game CG Sets"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #1a9317, #05bf0b);
-    background: -webkit-linear-gradient(top, #05bf0b, #1a9317);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 85px;
-    letter-spacing: 1px;
-}
-div#gdc a[href="https://e-hentai.org/western"]:after {
-    content: "Western"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #5dc13b, #77ff81);
-    background: -webkit-linear-gradient(top, #77ff81, #5dc13b);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 85px;
-    letter-spacing: 1px;
-}
-div#gdc a[href="https://e-hentai.org/non-h"]:after {
-    content: "Non-H"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #0f9ebd, #08d7e2);
-    background: -webkit-linear-gradient(top, #08d7e2, #0f9ebd);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 85px;
-    letter-spacing: 1px;
-}
-div#gdc a[href="https://e-hentai.org/imageset"]:after {
-    content: "Image Sets"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #2756aa, #7575ee);
-    background: -webkit-linear-gradient(top, #7575ee, #2756aa);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 85px;
-    letter-spacing: 1px;
-}
-div#gdc a[href="https://e-hentai.org/cosplay"]:after {
-    content: "Cosplay"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #8800c3, #9755f5);
-    background: -webkit-linear-gradient(top, #9755f5, #8800c3);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 85px;
-    letter-spacing: 1px;
-}
-div#gdc a[href="https://e-hentai.org/asianporn"]:after {
-    content: "Asian Porn"!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #b452a5, #fe93ff);
-    background: -webkit-linear-gradient(top, #fe93ff, #b452a5);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 85px;
-    letter-spacing: 1px;
-}
-div#gdc a[href="https://e-hentai.org/misc"]:after {
-    width: 85px;
-    content: "Misc"!important;
-    display: inline-block;
-    text-align: center;
-    font-family: arial, helvetica, sans-serif;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 1.125rem;
-    line-height: 1.125rem;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    background: linear-gradient(to top, #707070, #9e9e9e);
-    background: -webkit-linear-gradient(top, #9e9e9e, #707070);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    letter-spacing: 1px;
-}
-table.itc tr > td,
-td.itdc {
-    display: inline-table;
-    height: 22px;
-    width: 84px;
-    margin-bottom: -10px;
-}
-#f_doujinshi_img.ic,
-#f_manga_img.ic,
-#f_artistcg_img.ic,
-#f_gamecg_img.ic,
-#f_western_img,
-#f_non-h_img,
-#f_imageset_img,
-#f_cosplay_img,
-#f_asianporn_img,
-#f_misc_img,
-td.itdc img {
-    margin-top: -24px;
-    opacity: 0;
-}
-#f_doujinshi_img.ic[src="https://ehgt.org/g/c/doujinshi_d.png"],
-#f_manga_img.ic[src="https://ehgt.org/g/c/manga_d.png"],
-#f_artistcg_img.ic[src="https://ehgt.org/g/c/artistcg_d.png"],
-#f_gamecg_img.ic[src="https://ehgt.org/g/c/gamecg_d.png"],
-#f_western_img[src="https://ehgt.org/g/c/western_d.png"],
-#f_non-h_img[src="https://ehgt.org/g/c/non-h_d.png"],
-#f_imageset_img[src="https://ehgt.org/g/c/imageset_d.png"],
-#f_cosplay_img[src="https://ehgt.org/g/c/cosplay_d.png"],
-#f_asianporn_img[src="https://ehgt.org/g/c/asianporn_d.png"],
-#f_misc_img[src="https://ehgt.org/g/c/misc_d.png"],
-form[name="favform"] td.itdc img {
-    width: 100px;
-    height: 22px;
-    box-sizing: border-box;
-    padding-left: 100px;
-    background: black;
-    opacity: .45;
-    border-radius: 0.1875rem;
-}
-table.itc tr > td:before,
-td.itdc a:before {
-    content: ""!important;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    padding: 0 0.5rem;
-    height: 20px;
-    line-height: 20px;
-    font-size: 8pt;
-    border-radius: 0.1875rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    width: 84px;
-    letter-spacing: 1px;
-    margin-bottom: -5px;
-    color: #fff;
-}
-table.itc tr:nth-child(1) > td:nth-child(1):before,
-td.itdc a[href="https://e-hentai.org/doujinshi"]:before {
-    content: "Doujinshi"!important;
-    background: linear-gradient(to top, #fc4e4e, #f26f5f);
-    background: -webkit-linear-gradient(top, #f26f5f, #fc4e4e);
-}
-table.itc tr:nth-child(1) > td:nth-child(2):before,
-td.itdc a[href="https://e-hentai.org/manga"]:before {
-    content: "Manga"!important;
-    background: linear-gradient(to top, #e78c1a, #fcb417);
-    background: -webkit-linear-gradient(top, #fcb417, #e78c1a);
-}
-table.itc tr:nth-child(1) > td:nth-child(3):before,
-td.itdc a[href="https://e-hentai.org/artistcg"]:before {
-    content: "Artist CG Sets"!important;
-    background: linear-gradient(to top, #c7bf07, #ced91e);
-    background: -webkit-linear-gradient(top, #ced91e, #c7bf07);
-}
-table.itc tr:nth-child(1) > td:nth-child(4):before,
-td.itdc a[href="https://e-hentai.org/gamecg"]:before {
-    content: "Game CG Sets"!important;
-    background: linear-gradient(to top, #1a9317, #05bf0b);
-    background: -webkit-linear-gradient(top, #05bf0b, #1a9317);
-}
-table.itc tr:nth-child(1) > td:nth-child(5):before,
-td.itdc a[href="https://e-hentai.org/western"]:before {
-    content: "Western"!important;
-    background: linear-gradient(to top, #5dc13b, #77ff81);
-    background: -webkit-linear-gradient(top, #77ff81, #5dc13b);
-}
-table.itc tr:nth-child(2) > td:nth-child(1):before,
-td.itdc a[href="https://e-hentai.org/non-h"]:before {
-    content: "Non-H"!important;
-    background: linear-gradient(to top, #0f9ebd, #08d7e2);
-    background: -webkit-linear-gradient(top, #08d7e2, #0f9ebd);
-}
-table.itc tr:nth-child(2) > td:nth-child(2):before,
-td.itdc a[href="https://e-hentai.org/imageset"]:before {
-    content: "Image Sets"!important;
-    background: linear-gradient(to top, #2756aa, #7575ee);
-    background: -webkit-linear-gradient(top, #7575ee, #2756aa);
-}
-table.itc tr:nth-child(2) > td:nth-child(3):before,
-td.itdc a[href="https://e-hentai.org/cosplay"]:before {
-    content: "Cosplay"!important;
-    background: linear-gradient(to top, #8800c3, #9755f5);
-    background: -webkit-linear-gradient(top, #9755f5, #8800c3);
-}
-table.itc tr:nth-child(2) > td:nth-child(4):before,
-td.itdc a[href="https://e-hentai.org/asianporn"]:before {
-    content: "Asian Porn"!important;
-    background: linear-gradient(to top, #b452a5, #fe93ff);
-    background: -webkit-linear-gradient(top, #fe93ff, #b452a5);
-}
-table.itc tr:nth-child(2) > td:nth-child(5):before,
-td.itdc a[href="https://e-hentai.org/misc"]:before {
-    content: "Misc"!important;
-    background: linear-gradient(to top, #707070, #9e9e9e);
-    background: -webkit-linear-gradient(top, #9e9e9e, #707070);
-}
-form[name="favform"] td.itdc img {
-    margin-top: 0;
-    opacity: 1;
-    height: 20px;
-    background: url('https://i.imgur.com/39SfKAq.png') no-repeat;
-}
-form[name="favform"] td.itdc img[alt="doujinshi"] {
-    background-position: 0 0;
-}
-form[name="favform"] td.itdc img[alt="manga"] {
-    background-position: 0 -20px;
-}
-form[name="favform"] td.itdc img[alt="artistcg"] {
-    background-position: 0 -40px;
-}
-form[name="favform"] td.itdc img[alt="gamecg"] {
-    background-position: 0 -60px;
-}
-form[name="favform"] td.itdc img[alt="western"] {
-    background-position: 0 -80px;
-}
-form[name="favform"] td.itdc img[alt="non-h"] {
-    background-position: 0 -100px;
-}
-form[name="favform"] td.itdc img[alt="imageset"] {
-    background-position: 0 -120px;
-}
-form[name="favform"] td.itdc img[alt="cosplay"] {
-    background-position: 0 -140px;
-}
-form[name="favform"] td.itdc img[alt="asianporn"] {
-    background-position: 0 -160px;
-}
-form[name="favform"] td.itdc img[alt="misc"] {
-    background-position: 0 -180px;
-}
+@-moz-document regexp("^https?://(?!forums.)(.*)?e-hentai.org.*") {
+    /**** For category buttons ****/
+    div.id42,
+    div.id43,
+    div.id44 {
+        margin-top: 25px!important;
+    }
+    div.id42 {
+        left: 0!important;
+    }
+    div.id1 {
+        min-height: 200px!important;
+        max-height: 360px!important;
+        padding-bottom: 25px!important;
+    }
+    div.id41 {
+        height: 0px!important;
+        width: 0px!important;
+    }
+    div.id41[title="Doujinshi"]:after {
+        content: "Doujinshi"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #fc4e4e, #f26f5f);
+        background: -webkit-linear-gradient(top, #f26f5f, #fc4e4e);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Manga"]:after {
+        content: "Manga"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #e78c1a, #fcb417);
+        background: -webkit-linear-gradient(top, #fcb417, #e78c1a);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Artist CG Sets"]:after {
+        content: "Artist CG Sets"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #c7bf07, #ced91e);
+        background: -webkit-linear-gradient(top, #ced91e, #c7bf07);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Game CG Sets"]:after {
+        content: "Game CG Sets"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #1a9317, #05bf0b);
+        background: -webkit-linear-gradient(top, #05bf0b, #1a9317);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Western"]:after {
+        content: "Western"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #5dc13b, #77ff81);
+        background: -webkit-linear-gradient(top, #77ff81, #5dc13b);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Non-H"]:after {
+        content: "Non-H"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #0f9ebd, #08d7e2);
+        background: -webkit-linear-gradient(top, #08d7e2, #0f9ebd);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Image Sets"]:after {
+        content: "Image Sets"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #2756aa, #7575ee);
+        background: -webkit-linear-gradient(top, #7575ee, #2756aa);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Cosplay"]:after {
+        content: "Cosplay"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #8800c3, #9755f5);
+        background: -webkit-linear-gradient(top, #9755f5, #8800c3);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Asian Porn"]:after {
+        content: "Asian Porn"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #b452a5, #fe93ff);
+        background: -webkit-linear-gradient(top, #fe93ff, #b452a5);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Misc"]:after {
+        width: 200px;
+        content: "Misc"!important;
+        display: inline-block;
+        text-align: center;
+        font-family: arial, helvetica, sans-serif;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #707070, #9e9e9e);
+        background: -webkit-linear-gradient(top, #9e9e9e, #707070);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        letter-spacing: 1px;
+    }
+    div#gdc img {
+        height: 0;
+        width: 0;
+    }
+    div#gdc a[href="https://e-hentai.org/doujinshi"]:after {
+        content: "Doujinshi"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #fc4e4e, #f26f5f);
+        background: -webkit-linear-gradient(top, #f26f5f, #fc4e4e);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/manga"]:after {
+        content: "Manga"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #e78c1a, #fcb417);
+        background: -webkit-linear-gradient(top, #fcb417, #e78c1a);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/artistcg"]:after {
+        content: "Artist CG Sets"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #c7bf07, #ced91e);
+        background: -webkit-linear-gradient(top, #ced91e, #c7bf07);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/gamecg"]:after {
+        content: "Game CG Sets"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #1a9317, #05bf0b);
+        background: -webkit-linear-gradient(top, #05bf0b, #1a9317);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/western"]:after {
+        content: "Western"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #5dc13b, #77ff81);
+        background: -webkit-linear-gradient(top, #77ff81, #5dc13b);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/non-h"]:after {
+        content: "Non-H"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #0f9ebd, #08d7e2);
+        background: -webkit-linear-gradient(top, #08d7e2, #0f9ebd);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/imageset"]:after {
+        content: "Image Sets"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #2756aa, #7575ee);
+        background: -webkit-linear-gradient(top, #7575ee, #2756aa);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/cosplay"]:after {
+        content: "Cosplay"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #8800c3, #9755f5);
+        background: -webkit-linear-gradient(top, #9755f5, #8800c3);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/asianporn"]:after {
+        content: "Asian Porn"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #b452a5, #fe93ff);
+        background: -webkit-linear-gradient(top, #fe93ff, #b452a5);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/misc"]:after {
+        width: 85px;
+        content: "Misc"!important;
+        display: inline-block;
+        text-align: center;
+        font-family: arial, helvetica, sans-serif;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #707070, #9e9e9e);
+        background: -webkit-linear-gradient(top, #9e9e9e, #707070);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        letter-spacing: 1px;
+    }
+    table.itc tr > td,
+    td.itdc,
+    ,
+    #catsel.optsub .cs3 {
+        display: inline-table;
+        height: 22px;
+        width: 84px;
+        margin-bottom: -10px;
+    }
+    #f_doujinshi_img.ic,
+    #f_manga_img.ic,
+    #f_artistcg_img.ic,
+    #f_gamecg_img.ic,
+    #f_western_img,
+    #f_non-h_img,
+    #f_imageset_img,
+    #f_cosplay_img,
+    #f_asianporn_img,
+    #f_misc_img,
+    td.itdc img {
+        margin-top: -24px;
+        opacity: 0;
+    }
+    #catsel.optsub .cs3 img {
+        opacity: 0;
+    }
+    #f_doujinshi_img.ic[src="https://ehgt.org/g/c/doujinshi_d.png"],
+    #f_manga_img.ic[src="https://ehgt.org/g/c/manga_d.png"],
+    #f_artistcg_img.ic[src="https://ehgt.org/g/c/artistcg_d.png"],
+    #f_gamecg_img.ic[src="https://ehgt.org/g/c/gamecg_d.png"],
+    #f_western_img[src="https://ehgt.org/g/c/western_d.png"],
+    #f_non-h_img[src="https://ehgt.org/g/c/non-h_d.png"],
+    #f_imageset_img[src="https://ehgt.org/g/c/imageset_d.png"],
+    #f_cosplay_img[src="https://ehgt.org/g/c/cosplay_d.png"],
+    #f_asianporn_img[src="https://ehgt.org/g/c/asianporn_d.png"],
+    #f_misc_img[src="https://ehgt.org/g/c/misc_d.png"],
+    form[name="favform"] td.itdc img {
+        width: 100px;
+        height: 22px;
+        box-sizing: border-box;
+        padding-left: 100px;
+        background: black;
+        opacity: .45;
+        border-radius: 0.1875rem;
+    }
+    table.itc tr > td:before,
+    td.itdc a:before,
+    #catsel.optsub .cs3 label:before {
+        content: ""!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 20px;
+        line-height: 20px;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 84px;
+        letter-spacing: 1px;
+        margin-bottom: -5px;
+        color: #fff;
+    }
+    table.itc tr:nth-child(1) > td:nth-child(1):before,
+    td.itdc a[href="https://e-hentai.org/doujinshi"]:before,
+    #catsel.optsub .cs3 label[for="f_doujinshi"]:before {
+        content: "Doujinshi"!important;
+        background: linear-gradient(to top, #fc4e4e, #f26f5f);
+        background: -webkit-linear-gradient(top, #f26f5f, #fc4e4e);
+    }
+    table.itc tr:nth-child(1) > td:nth-child(2):before,
+    td.itdc a[href="https://e-hentai.org/manga"]:before,
+    #catsel.optsub .cs3 label[for="f_manga"]:before {
+        content: "Manga"!important;
+        background: linear-gradient(to top, #e78c1a, #fcb417);
+        background: -webkit-linear-gradient(top, #fcb417, #e78c1a);
+    }
+    table.itc tr:nth-child(1) > td:nth-child(3):before,
+    td.itdc a[href="https://e-hentai.org/artistcg"]:before,
+    #catsel.optsub .cs3 label[for="f_artistcg"]:before {
+        content: "Artist CG Sets"!important;
+        background: linear-gradient(to top, #c7bf07, #ced91e);
+        background: -webkit-linear-gradient(top, #ced91e, #c7bf07);
+    }
+    table.itc tr:nth-child(1) > td:nth-child(4):before,
+    td.itdc a[href="https://e-hentai.org/gamecg"]:before,
+    #catsel.optsub .cs3 label[for="f_gamecg"]:before {
+        content: "Game CG Sets"!important;
+        background: linear-gradient(to top, #1a9317, #05bf0b);
+        background: -webkit-linear-gradient(top, #05bf0b, #1a9317);
+    }
+    table.itc tr:nth-child(1) > td:nth-child(5):before,
+    td.itdc a[href="https://e-hentai.org/western"]:before,
+    #catsel.optsub .cs3 label[for="f_western"]:before {
+        content: "Western"!important;
+        background: linear-gradient(to top, #5dc13b, #77ff81);
+        background: -webkit-linear-gradient(top, #77ff81, #5dc13b);
+    }
+    table.itc tr:nth-child(2) > td:nth-child(1):before,
+    td.itdc a[href="https://e-hentai.org/non-h"]:before,
+    #catsel.optsub .cs3 label[for="f_non-h"]:before {
+        content: "Non-H"!important;
+        background: linear-gradient(to top, #0f9ebd, #08d7e2);
+        background: -webkit-linear-gradient(top, #08d7e2, #0f9ebd);
+    }
+    table.itc tr:nth-child(2) > td:nth-child(2):before,
+    td.itdc a[href="https://e-hentai.org/imageset"]:before,
+    #catsel.optsub .cs3 label[for="f_imageset"]:before {
+        content: "Image Sets"!important;
+        background: linear-gradient(to top, #2756aa, #7575ee);
+        background: -webkit-linear-gradient(top, #7575ee, #2756aa);
+    }
+    table.itc tr:nth-child(2) > td:nth-child(3):before,
+    td.itdc a[href="https://e-hentai.org/cosplay"]:before,
+    #catsel.optsub .cs3 label[for="f_cosplay"]:before {
+        content: "Cosplay"!important;
+        background: linear-gradient(to top, #8800c3, #9755f5);
+        background: -webkit-linear-gradient(top, #9755f5, #8800c3);
+    }
+    table.itc tr:nth-child(2) > td:nth-child(4):before,
+    td.itdc a[href="https://e-hentai.org/asianporn"]:before,
+    #catsel.optsub .cs3 label[for="f_asianporn"]:before {
+        content: "Asian Porn"!important;
+        background: linear-gradient(to top, #b452a5, #fe93ff);
+        background: -webkit-linear-gradient(top, #fe93ff, #b452a5);
+    }
+    table.itc tr:nth-child(2) > td:nth-child(5):before,
+    td.itdc a[href="https://e-hentai.org/misc"]:before,
+    #catsel.optsub .cs3 label[for="f_misc"]:before {
+        content: "Misc"!important;
+        background: linear-gradient(to top, #707070, #9e9e9e);
+        background: -webkit-linear-gradient(top, #9e9e9e, #707070);
+    }
+    form[name="favform"] td.itdc img {
+        margin-top: 0;
+        opacity: 1;
+        height: 20px;
+        background: url('https://i.imgur.com/39SfKAq.png') no-repeat;
+    }
+    form[name="favform"] td.itdc img[alt="doujinshi"] {
+        background-position: 0 0;
+    }
+    form[name="favform"] td.itdc img[alt="manga"] {
+        background-position: 0 -20px;
+    }
+    form[name="favform"] td.itdc img[alt="artistcg"] {
+        background-position: 0 -40px;
+    }
+    form[name="favform"] td.itdc img[alt="gamecg"] {
+        background-position: 0 -60px;
+    }
+    form[name="favform"] td.itdc img[alt="western"] {
+        background-position: 0 -80px;
+    }
+    form[name="favform"] td.itdc img[alt="non-h"] {
+        background-position: 0 -100px;
+    }
+    form[name="favform"] td.itdc img[alt="imageset"] {
+        background-position: 0 -120px;
+    }
+    form[name="favform"] td.itdc img[alt="cosplay"] {
+        background-position: 0 -140px;
+    }
+    form[name="favform"] td.itdc img[alt="asianporn"] {
+        background-position: 0 -160px;
+    }
+    form[name="favform"] td.itdc img[alt="misc"] {
+        background-position: 0 -180px;
+    }
 }
