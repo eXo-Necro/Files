@@ -1,0 +1,1183 @@
+/* ==UserStyle==
+@name        e-******.org Dark Theme + Better category buttons
+@namespace   LadyChocolatine
+@version     1.0.16
+@homepageURL https://forums.e-hentai.org/index.php?showtopic=193181
+@updateURL   https://raw.githubusercontent.com/eXo-Necro/Files/master/Trash/Dark-with-buttons.user.css
+@author      LadyChocolatine
+@advanced dropdown Background-image "Background Image" {
+  Christmas "Christmas" <<<EOT
+  /*! Christmas *\/body { background: #151515; background-color: #151515; } body:after { content: ""; position: fixed; top: 0; left: 0; background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png')!important; height: 100%!important; width: 100%!important; z-index: -1!important; -webkit-animation: snow 20s linear infinite; -moz-animation: snow 20s linear infinite; -ms-animation: snow 20s linear infinite; animation: snow 20s linear infinite; background-repeat: repeat!important; } @keyframes snow { 0% { background-position: 0px 0px, 0px 0px, 0px 0px; } 100% { background-position: 500px 1000px, 400px 400px, 300px 300px; } } @-moz-keyframes snow { 0% { background-position: 0px 0px, 0px 0px, 0px 0px; } 100% { background-position: 500px 1000px, 400px 400px, 300px 300px; } } @-webkit-keyframes snow { 0% { background-position: 0px 0px, 0px 0px, 0px 0px; } 50% { background-color: #b4cfe0; } 100% { background-position: 500px 1000px, 400px 400px, 300px 300px; background-color: #6b92b9; } } @-ms-keyframes snow { 0% { background-position: 0px 0px, 0px 0px, 0px 0px; } 100% { background-position: 500px 1000px, 400px 400px, 300px 300px; } } body:before { content: ""; width: 100%; height: 100%; position: fixed; top: 0; left: 0; background-image: url(http://starwarsblog.starwars.com/wp-content/themes/starwars-theme/library/images/bg-stars-left.jpg), url(http://starwarsblog.starwars.com/wp-content/themes/starwars-theme/library/images/bg-stars-right.jpg); background-repeat: repeat-y; background-position: left top, right top; background-size: auto, auto; z-index: -2; } EOT;
+}
+==/UserStyle== */
+@-moz-document regexp("^https?://(?!forums.)(.*)?e-hentai.org.*") {
+    /**** For category buttons ****/
+    div.id42,
+    div.id43,
+    div.id44 {
+        margin-top: 25px!important;
+    }
+    div.id42 {
+        left: 0!important;
+    }
+    div.id1 {
+        min-height: 200px!important;
+        max-height: 360px!important;
+        padding-bottom: 25px!important;
+    }
+    div.id41 {
+        height: 0px!important;
+        width: 0px!important;
+    }
+    div.id41[title="Doujinshi"]:after {
+        content: "Doujinshi"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #fc4e4e, #f26f5f);
+        background: -webkit-linear-gradient(top, #f26f5f, #fc4e4e);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Manga"]:after {
+        content: "Manga"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #e78c1a, #fcb417);
+        background: -webkit-linear-gradient(top, #fcb417, #e78c1a);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Artist CG Sets"]:after {
+        content: "Artist CG Sets"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #c7bf07, #ced91e);
+        background: -webkit-linear-gradient(top, #ced91e, #c7bf07);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Game CG Sets"]:after {
+        content: "Game CG Sets"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #1a9317, #05bf0b);
+        background: -webkit-linear-gradient(top, #05bf0b, #1a9317);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Western"]:after {
+        content: "Western"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #5dc13b, #77ff81);
+        background: -webkit-linear-gradient(top, #77ff81, #5dc13b);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Non-H"]:after {
+        content: "Non-H"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #0f9ebd, #08d7e2);
+        background: -webkit-linear-gradient(top, #08d7e2, #0f9ebd);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Image Sets"]:after {
+        content: "Image Sets"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #2756aa, #7575ee);
+        background: -webkit-linear-gradient(top, #7575ee, #2756aa);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Cosplay"]:after {
+        content: "Cosplay"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #8800c3, #9755f5);
+        background: -webkit-linear-gradient(top, #9755f5, #8800c3);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Asian Porn"]:after {
+        content: "Asian Porn"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #b452a5, #fe93ff);
+        background: -webkit-linear-gradient(top, #fe93ff, #b452a5);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    div.id41[title="Misc"]:after {
+        width: 200px;
+        content: "Misc"!important;
+        display: inline-block;
+        text-align: center;
+        font-family: arial, helvetica, sans-serif;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #707070, #9e9e9e);
+        background: -webkit-linear-gradient(top, #9e9e9e, #707070);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        letter-spacing: 1px;
+    }
+    div#gdc img {
+        height: 0;
+        width: 0;
+    }
+    div#gdc a[href="https://e-hentai.org/doujinshi"]:after {
+        content: "Doujinshi"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #fc4e4e, #f26f5f);
+        background: -webkit-linear-gradient(top, #f26f5f, #fc4e4e);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/manga"]:after {
+        content: "Manga"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #e78c1a, #fcb417);
+        background: -webkit-linear-gradient(top, #fcb417, #e78c1a);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/artistcg"]:after {
+        content: "Artist CG Sets"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #c7bf07, #ced91e);
+        background: -webkit-linear-gradient(top, #ced91e, #c7bf07);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/gamecg"]:after {
+        content: "Game CG Sets"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #1a9317, #05bf0b);
+        background: -webkit-linear-gradient(top, #05bf0b, #1a9317);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/western"]:after {
+        content: "Western"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #5dc13b, #77ff81);
+        background: -webkit-linear-gradient(top, #77ff81, #5dc13b);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/non-h"]:after {
+        content: "Non-H"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #0f9ebd, #08d7e2);
+        background: -webkit-linear-gradient(top, #08d7e2, #0f9ebd);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/imageset"]:after {
+        content: "Image Sets"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #2756aa, #7575ee);
+        background: -webkit-linear-gradient(top, #7575ee, #2756aa);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/cosplay"]:after {
+        content: "Cosplay"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #8800c3, #9755f5);
+        background: -webkit-linear-gradient(top, #9755f5, #8800c3);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/asianporn"]:after {
+        content: "Asian Porn"!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #b452a5, #fe93ff);
+        background: -webkit-linear-gradient(top, #fe93ff, #b452a5);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 85px;
+        letter-spacing: 1px;
+    }
+    div#gdc a[href="https://e-hentai.org/misc"]:after {
+        width: 85px;
+        content: "Misc"!important;
+        display: inline-block;
+        text-align: center;
+        font-family: arial, helvetica, sans-serif;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        background: linear-gradient(to top, #707070, #9e9e9e);
+        background: -webkit-linear-gradient(top, #9e9e9e, #707070);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        letter-spacing: 1px;
+    }
+    table.itc tr > td,
+    td.itdc,
+    #catsel.optsub .cs3 {
+        display: inline-table;
+        height: 22px;
+        width: 84px;
+        margin-bottom: -10px;
+    }
+    #f_doujinshi_img.ic,
+    #f_manga_img.ic,
+    #f_artistcg_img.ic,
+    #f_gamecg_img.ic,
+    #f_western_img,
+    #f_non-h_img,
+    #f_imageset_img,
+    #f_cosplay_img,
+    #f_asianporn_img,
+    #f_misc_img,
+    td.itdc img {
+        margin-top: -24px;
+        opacity: 0;
+    }
+    #catsel.optsub .cs3 img {
+        opacity: 0;
+    }
+    #f_doujinshi_img.ic[src="https://ehgt.org/g/c/doujinshi_d.png"],
+    #f_manga_img.ic[src="https://ehgt.org/g/c/manga_d.png"],
+    #f_artistcg_img.ic[src="https://ehgt.org/g/c/artistcg_d.png"],
+    #f_gamecg_img.ic[src="https://ehgt.org/g/c/gamecg_d.png"],
+    #f_western_img[src="https://ehgt.org/g/c/western_d.png"],
+    #f_non-h_img[src="https://ehgt.org/g/c/non-h_d.png"],
+    #f_imageset_img[src="https://ehgt.org/g/c/imageset_d.png"],
+    #f_cosplay_img[src="https://ehgt.org/g/c/cosplay_d.png"],
+    #f_asianporn_img[src="https://ehgt.org/g/c/asianporn_d.png"],
+    #f_misc_img[src="https://ehgt.org/g/c/misc_d.png"],
+    form[name="favform"] td.itdc img {
+        width: 100px;
+        height: 22px;
+        box-sizing: border-box;
+        padding-left: 100px;
+        background: black;
+        opacity: .45;
+        border-radius: 0.1875rem;
+    }
+    table.itc tr > td:before,
+    td.itdc a:before,
+    #catsel.optsub .cs3 label:before {
+        content: ""!important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: 20px;
+        line-height: 20px;
+        font-size: 8pt;
+        border-radius: 0.1875rem;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        width: 84px;
+        letter-spacing: 1px;
+        margin-bottom: -5px;
+        color: #fff;
+    }
+    table.itc tr:nth-child(1) > td:nth-child(1):before,
+    td.itdc a[href="https://e-hentai.org/doujinshi"]:before,
+    #catsel.optsub .cs3 label[for="f_doujinshi"]:before {
+        content: "Doujinshi"!important;
+        background: linear-gradient(to top, #fc4e4e, #f26f5f);
+        background: -webkit-linear-gradient(top, #f26f5f, #fc4e4e);
+    }
+    table.itc tr:nth-child(1) > td:nth-child(2):before,
+    td.itdc a[href="https://e-hentai.org/manga"]:before,
+    #catsel.optsub .cs3 label[for="f_manga"]:before {
+        content: "Manga"!important;
+        background: linear-gradient(to top, #e78c1a, #fcb417);
+        background: -webkit-linear-gradient(top, #fcb417, #e78c1a);
+    }
+    table.itc tr:nth-child(1) > td:nth-child(3):before,
+    td.itdc a[href="https://e-hentai.org/artistcg"]:before,
+    #catsel.optsub .cs3 label[for="f_artistcg"]:before {
+        content: "Artist CG Sets"!important;
+        background: linear-gradient(to top, #c7bf07, #ced91e);
+        background: -webkit-linear-gradient(top, #ced91e, #c7bf07);
+    }
+    table.itc tr:nth-child(1) > td:nth-child(4):before,
+    td.itdc a[href="https://e-hentai.org/gamecg"]:before,
+    #catsel.optsub .cs3 label[for="f_gamecg"]:before {
+        content: "Game CG Sets"!important;
+        background: linear-gradient(to top, #1a9317, #05bf0b);
+        background: -webkit-linear-gradient(top, #05bf0b, #1a9317);
+    }
+    table.itc tr:nth-child(1) > td:nth-child(5):before,
+    td.itdc a[href="https://e-hentai.org/western"]:before,
+    #catsel.optsub .cs3 label[for="f_western"]:before {
+        content: "Western"!important;
+        background: linear-gradient(to top, #5dc13b, #77ff81);
+        background: -webkit-linear-gradient(top, #77ff81, #5dc13b);
+    }
+    table.itc tr:nth-child(2) > td:nth-child(1):before,
+    td.itdc a[href="https://e-hentai.org/non-h"]:before,
+    #catsel.optsub .cs3 label[for="f_non-h"]:before {
+        content: "Non-H"!important;
+        background: linear-gradient(to top, #0f9ebd, #08d7e2);
+        background: -webkit-linear-gradient(top, #08d7e2, #0f9ebd);
+    }
+    table.itc tr:nth-child(2) > td:nth-child(2):before,
+    td.itdc a[href="https://e-hentai.org/imageset"]:before,
+    #catsel.optsub .cs3 label[for="f_imageset"]:before {
+        content: "Image Sets"!important;
+        background: linear-gradient(to top, #2756aa, #7575ee);
+        background: -webkit-linear-gradient(top, #7575ee, #2756aa);
+    }
+    table.itc tr:nth-child(2) > td:nth-child(3):before,
+    td.itdc a[href="https://e-hentai.org/cosplay"]:before,
+    #catsel.optsub .cs3 label[for="f_cosplay"]:before {
+        content: "Cosplay"!important;
+        background: linear-gradient(to top, #8800c3, #9755f5);
+        background: -webkit-linear-gradient(top, #9755f5, #8800c3);
+    }
+    table.itc tr:nth-child(2) > td:nth-child(4):before,
+    td.itdc a[href="https://e-hentai.org/asianporn"]:before,
+    #catsel.optsub .cs3 label[for="f_asianporn"]:before {
+        content: "Asian Porn"!important;
+        background: linear-gradient(to top, #b452a5, #fe93ff);
+        background: -webkit-linear-gradient(top, #fe93ff, #b452a5);
+    }
+    table.itc tr:nth-child(2) > td:nth-child(5):before,
+    td.itdc a[href="https://e-hentai.org/misc"]:before,
+    #catsel.optsub .cs3 label[for="f_misc"]:before {
+        content: "Misc"!important;
+        background: linear-gradient(to top, #707070, #9e9e9e);
+        background: -webkit-linear-gradient(top, #9e9e9e, #707070);
+    }
+    form[name="favform"] td.itdc img {
+        margin-top: 0;
+        opacity: 1;
+        height: 20px;
+        background: url('https://i.imgur.com/39SfKAq.png') no-repeat;
+    }
+    form[name="favform"] td.itdc img[alt="doujinshi"] {
+        background-position: 0 0;
+    }
+    form[name="favform"] td.itdc img[alt="manga"] {
+        background-position: 0 -20px;
+    }
+    form[name="favform"] td.itdc img[alt="artistcg"] {
+        background-position: 0 -40px;
+    }
+    form[name="favform"] td.itdc img[alt="gamecg"] {
+        background-position: 0 -60px;
+    }
+    form[name="favform"] td.itdc img[alt="western"] {
+        background-position: 0 -80px;
+    }
+    form[name="favform"] td.itdc img[alt="non-h"] {
+        background-position: 0 -100px;
+    }
+    form[name="favform"] td.itdc img[alt="imageset"] {
+        background-position: 0 -120px;
+    }
+    form[name="favform"] td.itdc img[alt="cosplay"] {
+        background-position: 0 -140px;
+    }
+    form[name="favform"] td.itdc img[alt="asianporn"] {
+        background-position: 0 -160px;
+    }
+    form[name="favform"] td.itdc img[alt="misc"] {
+        background-position: 0 -180px;
+    }
+    /**** For Dark Theme ****/
+    @font-face {
+        font-family: 'font-awesome';
+        src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2);
+    }
+    div.tod {
+        display: none;
+    }
+    p#nb {
+        width: calc(100% + 4px);
+        min-width: calc(100% + 4px);
+        position: relative;
+        top: -4px;
+        left: -2px;
+        background: #242424;
+        box-shadow: 0px 1px 1px 2px rgba(0, 0, 0, 0.3);
+        padding: 10px 0;
+    }
+    p#nb a {
+        padding: 10px 10px;
+        color: #C5C5C5;
+    }
+    p#nb a:hover {
+        color: #e7e7e7;
+        background-color: #1a1a1a;
+    }
+    p#nb img {
+        display: none;
+    }
+    body {
+        background: #161616;
+        background-color: #161616;
+        color: #C5C5C5;
+    }
+  	/*[[Background-image]]*/
+    div.dp {
+        width: calc(100% + 4px);
+        position: relative;
+        bottom: -4px;
+        left: -2px;
+        background: #1a1a1a;
+        padding: 10px 0;
+        color: #E5E5E5;
+    }
+    div.ido,
+    div.gm,
+    div#gdt,
+    .stuffbox,
+    div.sni {
+        border: none;
+        background-color: #242424;
+        border-right: 8px solid #1A1A1A;
+        border-left: 8px solid #1A1A1A;
+        border-radius: 0px;
+    }
+    h1.ih {
+        width: calc(100% + 22px);
+        position: relative;
+        top: -7px;
+        left: -11px;
+        padding: 10px 0;
+        background: #1d1d1d;
+        color: #bbb;
+    }
+    div.idi,
+    div#torrentinfo table#ett,
+    div#torrentinfo div#etd,
+    div#x {
+        background-color: rgb(30, 30, 30);
+        border-radius: 2px;
+        border: 1px solid rgb(42, 42, 42);
+        color: rgb(134, 134, 134);
+    }
+    div.id1 {
+        background-color: rgb(30, 30, 30);
+        border-radius: 2px;
+        border: 1px solid rgb(42, 42, 42);
+        font-weight: 500;
+        color: rgb(134, 134, 134);
+    }
+    .stdinput {
+        font-size: 8pt;
+        border: 1px solid #5C0D11;
+        margin: 4px 1px 0px 1px;
+        padding: 2px 3px 2px 3px;
+        background: #202020!important;
+        border-color: #323232!important;
+        color: #acacac!important;
+    }
+    .stdbtn {
+        border: 0.0625rem solid #333333!important;
+        background: #2E2E2E!important;
+        color: #d4d4d4!important;
+        margin-left: 3px;
+        height: 1.675rem;
+        line-height: 1.675rem;
+        outline: none;
+        border-radius: 0;
+        -webkit-appearance: none;
+        box-sizing: border-box;
+    }
+    .stdbtn:hover {
+        background: #272727!important;
+        color: #e7e7e7!important;
+        border: 0.0625rem solid #2E2E2E!important;
+    }
+    div.itg {
+        border-top: 1px solid #262626;
+        border-bottom: 1px solid #262626;
+    }
+    table.ptt,
+    table.ptb {
+        border-collapse: separate;
+    }
+    table.ptt td,
+    table.ptb td {
+        border: 0px solid #5C0D12;
+        text-align: center;
+        vertical-align: middle;
+        background: #424242;
+        font-size: 12px;
+        padding: 4px 6px;
+        border-radius: 2px;
+        height: 0px;
+        width: 0px;
+    }
+    table.ptt td[onclick*='Jump to page: '],
+    table.ptb td[onclick*='Jump to page: '] {
+        background: transparent!important;
+    }
+    table.ptt td[onclick*='Jump to page: ']:hover,
+    table.ptb td[onclick*='Jump to page: ']:hover {
+        background-color: #1d1d1d!important;
+    }
+    td.ptds {
+        border: none;
+        font-weight: 500;
+        background: #8d8d8d!important;
+        font-size: 12px!important;
+    }
+    td.ptds a {
+        color: #161616!important;
+    }
+    table.ptt a,
+    table.ptt td,
+    table.ptt td:hover,
+    table.ptb a,
+    table.ptb td,
+    table.ptb td:hover {
+        color: #e9e9e9;
+    }
+    td.ptdd,
+    td.ptdd:hover {
+        color: #e9e9e9!important;
+    }
+    table.ptt td:hover,
+    table.ptb td:hover,
+    td.ptdd:hover {
+        background: #565656!important;
+    }
+    table.ptt {
+        margin-bottom: 10px!important;
+    }
+    table.ptb {
+        margin-top: 10px!important;
+    }
+    a {
+        color: #879DAA;
+    }
+    .id2 a:visited,
+    .it5 a:visited {
+        color: #a588ab;
+    }
+    a:hover {
+        color: #e7e7e7!important;
+    }
+    div#pt {
+        border-color: #393939;
+        padding: 6px 0;
+        background: #393939;
+        color: #9c9c9c;
+        margin-bottom: 15px;
+        font-size: 12px;
+        word-wrap: break-word;
+        text-transform: uppercase;
+        border-radius: 2px;
+    }
+    table.itg th {
+        background: #434343 !important;
+        color: #E7E7E7;
+    }
+    table.itg {
+        border: 2px solid #434343;
+    }
+    tr.gtr0 {
+        background: #2A2A2A;
+    }
+    tr.gtr1 {
+        background: #2E2E2E;
+    }
+    td.itd,
+    td.itdc,
+    table.itg td,
+    #t.stuffbox .d3 .d4,
+    #t.stuffbox .d3 .d5 {
+        border-color: #434343;
+    }
+    #eventpane {
+        background: #222!important;
+        border: 0px solid #5C0D12!important;
+    }
+    div#gd2,
+    div#gmid,
+    div#gright {
+        background: transparent;
+    }
+    div#gd1 img,
+    div#gdt img {
+        border: 1px solid #262626;
+    }
+    div#gd4 {
+        border-left: 1px solid #262626;
+        border-right: 1px solid #262626;
+    }
+    img.ygm {
+        -webkit-filter: invert(70%);
+        filter: invert(70%);
+    }
+    div.gt,
+    div.gtl,
+    div.gtw {
+        background-color: rgb(124, 135, 156) !important;
+        border-color: #5a6f7d;
+    }
+    div#taglist a {
+        color: #f2f2f2;
+    }
+    #torrentinfo > div:nth-child(1) > form > div,
+    #torrentinfo > div:nth-child(2),
+    div.homebox {
+        border-color: #262626!important;
+    }
+    h1#gj {
+        border-bottom: 1px solid #262626;
+    }
+    div#db {
+        border: 0px solid rgba(92, 13, 18, 0);
+        background: #1C1C1C;
+    }
+    div.ths {
+        background: #272727!important;
+        color: #e7e7e7!important;
+        border: 0.0625rem solid #2E2E2E!important;
+    }
+    div.thd,
+    div.tha {
+        border: 1px solid rgba(194, 168, 164, 0);
+        color: #b7b7b7;
+    }
+    div.thd {
+        opacity: .2;
+    }
+    div.c2 {
+        background: #434343;
+        border-color: transparent;
+    }
+    div.fps {
+        border: 0.0625rem solid #333333!important;
+        background: #2E2E2E!important;
+        color: #d4d4d4!important;
+    }
+    div.fps:hover {
+        background: #272727!important;
+        color: #e7e7e7!important;
+        border: 0.0625rem solid #2E2E2E!important;
+    }
+    input.fs {
+        background: #202020!important;
+        border: 1px solid #323232!important;
+        color: #acacac!important;
+    }
+    div.sn img,
+    div.sb img {
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    div.fp:hover {
+        background: #232323;
+        border: 1px solid #232323;
+        border-radius: 0px;
+    }
+    table.mt {
+        border: 1px solid #232323;
+        background: #434343;
+    }
+    tr.gtr {
+        background: #434343;
+    }
+     ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+        opacity: 1;
+        -webkit-backface-visibility: hidden;
+        background: rgba(85, 85, 85, 0.2);
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+        box-shadow: 0 0 1px 1px rgba(0, 0, 0, .25);
+    }
+     ::-webkit-scrollbar-thumb {
+        background: rgba(85, 85, 85, 0.5);
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+     ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+    #searchbox > form > p:nth-child(2) > input.stdinput {
+        height: 1.675rem;
+        line-height: 1.675rem;
+        outline: none;
+        box-shadow: inset 0 0 0 50px #444, 0 1px 8px 1px rgba(0, 0, 0, 0.1);
+        font-weight: 300;
+        background: transparent;
+        font-size: 12px;
+        padding: 0 2.5rem 0 0.9375rem;
+        border: 0.0625rem solid #D5D5D5;
+        border-radius: 0;
+        -webkit-appearance: none;
+        box-sizing: border-box;
+        -moz-transition: all 0.3s cubic-bezier(.25, .5, .25, 1);
+        -o-transition: all 0.3s cubic-bezier(.25, .5, .25, 1);
+        -webkit-transition: all 0.3s cubic-bezier(.25, .5, .25, 1);
+        transition: all 0.3s cubic-bezier(.25, .5, .25, 1)
+    }
+    #searchbox > form > p:nth-child(2) > input.stdinput:focus {
+        box-shadow: inset 0 0 0 1px #444;
+        background: #222!important
+    }
+    #searchbox > form > p:nth-child(2) > input.stdinput::-webkit-input-placeholder {
+        color: #999;
+        transition: all 0.3s cubic-bezier(.25, .5, .25, 1)
+    }
+    #searchbox > form > p:nth-child(2) > input.stdinput:-ms-input-placeholder {
+        color: #999;
+        transition: all 0.3s cubic-bezier(.25, .5, .25, 1)
+    }
+    #searchbox > form > p:nth-child(2) > input.stdinput::-moz-placeholder {
+        color: #999;
+        transition: all 0.3s cubic-bezier(.25, .5, .25, 1)
+    }
+    #searchbox > form > p:nth-child(2) > input.stdinput:focus::-webkit-input-placeholder {
+        color: #555;
+        filter: blur(2px)
+    }
+    #searchbox > form > p:nth-child(2) > input.stdinput:focus:-ms-input-placeholder {
+        color: #555;
+        filter: blur(2px)
+    }
+    #searchbox > form > p:nth-child(2) > input.stdinput:focus::-moz-placeholder {
+        color: #555;
+        filter: blur(2px)
+    }
+    #searchbox > form > p:nth-child(2) {
+        margin: 5px 0 10px 0;
+    }
+    tr.gtr0:hover,
+    tr.gtr1:hover {
+        background: #242424;
+    }
+    div.d {
+        border: 0px solid rgba(92, 13, 18, 0);
+        background: #1E1E1E;
+    }
+    div.tha:hover {
+        background: #4f4f4f;
+        color: #ffffff;
+    }
+    div#taglist a.tup {
+        background: #3cdc74!important;
+        color: #ffffff!important;
+        padding: 2px 6px;
+        margin: 0 -6px;
+        border-radius: 6px;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    }
+    div#taglist a.tdn {
+        background: #ef4b4b!important;
+        color: #ffffff!important;
+        padding: 2px 6px;
+        margin: 0 -6px;
+        border-radius: 6px;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    }
+    div#taglist a[style="color: blue;"] {
+        background: #fff!important;
+        color: #161616!important;
+        padding: 2px 6px;
+        margin: 0 -6px;
+        border-radius: 6px;
+    }
+    div#tagpopup {
+        background: #262626;
+        border-color: #272727;
+    }
+    div#gd1 div {
+        border-color: #4f4f4f;
+    }
+    a[href^="https://e-hentai.org/gallerytorrents.php?gid="] img {
+        opacity: 0;
+    }
+    .id44 a[href^="https://e-hentai.org/gallerytorrents.php?gid="]:before,
+    .it3 a[href^="https://e-hentai.org/gallerytorrents.php?gid="]:before {
+        content: "\f019";
+        font-family: 'font-awesome';
+        color: #4e4e4e;
+        font-size: 16px;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        transition: color .5s;
+    }
+    a[href^="https://e-hentai.org/gallerytorrents.php?gid="]:hover:before {
+        color: #d9d9d9;
+    }
+    .it3 a[href^="https://e-hentai.org/gallerytorrents.php?gid="]:before {
+        position: relative;
+        left: 1px;
+        top: -2px;
+    }
+    .stuffbox table[style="margin:auto; border-collapse:collapse; background:#F2F0E4; border:1px solid #C2C1C1; border-bottom:0"] {
+        background: #1e1e1e!important;
+        border-color: #1e1e1e!important;
+    }
+    td.stdk,
+    td.stdv {
+        border-color: #383838;
+        background-color: #161616;
+    }
+    div[id^="cell_"] {
+        background: #323232;
+        border-color: #383838;
+    }
+    body > div[style="text-align:center; width:800px; padding:5px 20px 10px 20px; margin:10px auto 5px auto; background:#EDEBDF; border:1px solid #5C0D12; font-size:9pt"],
+    body > div[style="text-align:center; width:800px; padding:10px 20px 10px 20px; margin:10px auto 5px auto; background:#EDEBDF; border:1px solid #5C0D12; font-size:9pt"],
+    body > div[style="text-align:center; width:400px; height:154px; padding:1px 20px 10px 20px; margin:8px auto auto auto; background:#EDEBDF; border:1px solid #5C0D12"] {
+        background: #1e1e1e!important;
+        border-color: #101010!important;
+    }
+    p#lb > a[style="font-weight:bold"] {
+        color: #fff;
+    }
+    tr#dlvl {
+        border-color: #212121;
+        background: #161616;
+    }
+    body > div[style="text-align:center; width:400px; height:154px; padding:1px 20px 10px 20px; margin:8px auto auto auto; background:#EDEBDF; border:1px solid #5C0D12"] span#as {
+        color: #101010!important;
+    }
+    input#newtagfield {
+        padding-top: 0;
+        padding-bottom: 0;
+        line-height: 25px;
+    }
+    input[type="checkbox"]:before,
+    input[type="radio"]:before {
+        content: "";
+        display: block;
+        width: 13px;
+        height: 13px;
+        background: #191919;
+        -moz-box-shadow: inset 0px 0px 0px 1px #505050;
+        -webkit-box-shadow: inset 0px 0px 0px 1px #505050;
+        -o-box-shadow: inset 0px 0px 0px 1px #505050;
+        box-shadow: inset 0px 0px 0px 1px #505050;
+        transition: all 250ms cubic-bezier(.4, .0, .23, 1);
+    }
+    input[type="checkbox"]:disabled:before,
+    input[type="radio"]:disabled:before {
+        background: #1b1b1b;
+        -moz-box-shadow: inset 0px 0px 0px 1px #2d2d2d;
+        -webkit-box-shadow: inset 0px 0px 0px 1px #2d2d2d;
+        -o-box-shadow: inset 0px 0px 0px 1px #2d2d2d;
+        box-shadow: inset 0px 0px 0px 1px #2d2d2d;
+    }
+    input[type="checkbox"]:checked:before,
+    input[type="radio"]:checked:before {
+        content: "";
+        display: block;
+        background: #191919;
+        box-shadow: inset 0px 0px 0px 1px #505050;
+        animation: shrink-bounce 200ms cubic-bezier(.4, .0, .23, 1);
+    }
+    input[type="checkbox"]:checked:after,
+    input[type="radio"]:checked:after {
+        content: "\f00c";
+        font-family: 'font-awesome';
+        display: block;
+        color: #40c355;
+        text-align: center;
+        position: relative;
+        bottom: 13px;
+        animation: shrink-bounce 200ms cubic-bezier(.4, .0, .23, 1);
+    }
+    input[type="radio"]:before {
+        border-radius: 50%;
+    }
+    input[type="radio"]:checked:after {
+        content: "";
+        width: 7px;
+        height: 7px;
+        background-color: rgba(64, 195, 85, .8);
+        border-radius: 50%;
+        bottom: 10px;
+        left: 3px;
+    }
+    div.sni h1 {
+        font-size: 11pt;
+        font-weight: normal;
+        width: calc(100% - 50px);
+        margin: 8px auto 0px auto;
+        padding: 10px 0px;
+        border-radius: 2px;
+        background: rgb(29, 29, 29) none repeat scroll 0% 0%;
+        display: inline-block;
+        position: inherit;
+        top: -4px;
+    }
+    #gd5 .g2 img,
+    #gd5 .g3 img,
+    div#tagmenu_act img {
+        display: none;
+    }
+    #gd5 .g2 a,
+    #gd5 .g3 a {
+        display: inline-block;
+        padding: 7px 10px;
+        background: #212121;
+        border: 1px solid #2b2b2b;
+        color: #656565;
+        border-radius: 1px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.14);
+        margin: 5px 0px;
+        float: right;
+        width: 140px;
+        text-align: center;
+    }
+    #gd5 .g2 a:hover {
+        background: #262626;
+    }
+    #gd5 .g3 a {
+        background-color: #751a1a;
+        border: 1px solid #952828;
+        color: #dbdada;
+    }
+    div#tagmenu_act a {
+        -webkit-box-shadow: inset 0 -4px 0 rgba(35, 39, 42, .6);
+        background-color: #4f545c;
+        box-shadow: inset 0 -4px 0 rgba(35, 39, 42, .6);
+        color: #95989d;
+        border: 1px solid #202225;
+        border-radius: 2px;
+        height: 23px;
+        margin-right: 3px;
+        min-height: 14px;
+        min-width: 14px;
+        padding: 3px 6px 4px;
+        text-align: center;
+    }
+    div#tagmenu_act a:active {
+        -webkit-transform: translateY(2px);
+        height: 21px;
+        padding-bottom: 2px;
+        transform: translateY(2px);
+        -webkit-box-shadow: inset 0 -2px 0 #242629;
+        box-shadow: inset 0 -2px 0 #242629;
+        color: #777a7e;
+    }
+    .id1 .id2:hover {
+        overflow: visible;
+    }
+    .id1 .id2 a:hover {
+        display: block;
+        background-color: rgba(30, 30, 30, .7);
+        position: relative;
+        z-index: 1;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    }
+    span.scb {
+        color: #0095ff;
+    }
+    #b.stuffbox div#b2 {
+        background-image: none;
+    }
+    div.ir {
+        background-image: url(https://github.com/eXo-Necro/Files/blob/master/zone-telechargement/rt.png?raw=true);
+    }
+}
