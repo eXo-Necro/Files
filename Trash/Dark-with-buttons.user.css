@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        e-******.org Dark Theme + Better category buttons
 @namespace   LadyChocolatine
-@version     1.0.15
+@version     1.0.16
 @homepageURL https://forums.e-hentai.org/index.php?showtopic=193181
 @updateURL   https://raw.githubusercontent.com/eXo-Necro/Files/master/Trash/Dark-with-buttons.user.css
 @author      LadyChocolatine
@@ -414,7 +414,6 @@
     }
     table.itc tr > td,
     td.itdc,
-    ,
     #catsel.optsub .cs3 {
         display: inline-table;
         height: 22px;
@@ -783,8 +782,11 @@
         background: #2E2E2E;
     }
     td.itd,
-    td.itdc {
-        border-right: 1px solid #434343;
+    td.itdc,
+    table.itg td,
+    #t.stuffbox .d3 .d4,
+    #t.stuffbox .d3 .d5 {
+        border-color: #434343;
     }
     #eventpane {
         background: #222!important;
@@ -1167,5 +1169,11 @@
     }
     span.scb {
         color: #0095ff;
+    }
+    #b.stuffbox div#b2 {
+        background-image: none;
+    }
+    div.ir {
+        background-image: url(https://github.com/eXo-Necro/Files/blob/master/zone-telechargement/rt.png?raw=true);
     }
 }
