@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        e-******.org Dark Theme + Better category buttons
 @namespace   LadyChocolatine
-@version     1.0.14
+@version     1.0.15
 @homepageURL https://forums.e-hentai.org/index.php?showtopic=193181
 @updateURL   https://raw.githubusercontent.com/eXo-Necro/Files/master/Trash/Dark-with-buttons.user.css
 @author      LadyChocolatine
@@ -1053,6 +1053,14 @@
         -o-box-shadow: inset 0px 0px 0px 1px #505050;
         box-shadow: inset 0px 0px 0px 1px #505050;
         transition: all 250ms cubic-bezier(.4, .0, .23, 1);
+    }
+    input[type="checkbox"]:disabled:before,
+    input[type="radio"]:disabled:before {
+        background: #1b1b1b;
+        -moz-box-shadow: inset 0px 0px 0px 1px #2d2d2d;
+        -webkit-box-shadow: inset 0px 0px 0px 1px #2d2d2d;
+        -o-box-shadow: inset 0px 0px 0px 1px #2d2d2d;
+        box-shadow: inset 0px 0px 0px 1px #2d2d2d;
     }
     input[type="checkbox"]:checked:before,
     input[type="radio"]:checked:before {
