@@ -10,4 +10,6 @@ body.efyt-wide-player.viewport:not(.efyt-mini-player) ytd-watch-flexy[theater] #
     var elem = document.createElement('style');
     elem.innerText = style;
     document.head.appendChild(elem);
+
+  window.scroll(0, 56);
 })();
